@@ -1,9 +1,10 @@
 $blog-container-background: #fff;
+$blog-padding: 1em;
 
 .blog {
 	&-container {
 		background: $blog-container-background;
-		padding: 1em;
+		padding: $blog-padding;
 		box-sizing: border-box;
 	}
 }
