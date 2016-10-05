@@ -1,0 +1,25 @@
+
+@import "partials/_profile-card.scss";
+@import "partials/_type.scss";
+@import "partials/_blog-post.scss";
+
+body {
+	background: #ccc;
+	font-family: Segoe UI, Helvetica Neue, sans-serif;
+}
+
+.container {
+	margin: 2em;
+	@media only screen and (min-width: 55em) {
+		display: flex;
+	}
+}
+
+.banner {
+	flex: 1;
+}
+
+main {
+	flex: 2;
+	margin: 0 1em;
+}
