@@ -1,0 +1,60 @@
+$bio-card-background: #0ebeff;
+$bio-card-shadow-colour: rgba(0, 0, 0, 0.31);
+$bio-card-colour: #fff;
+$bio-card-min-width: 22em;
+
+.bio {
+	display: inline-block;
+	@media only screen and (min-width: 55em) {
+		min-width: $bio-card-min-width;
+	}
+	padding: 1em;
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: $bio-card-shadow-colour 0.2em 0 1em ;
+	background: $bio-card-background;
+	color: $bio-card-colour;
+	&-image {
+		max-width: 100%;
+		object-fit: none;
+		/* Do not scale the image */
+		object-position: -490px 86%;
+		/* Centre the image within the element */
+		width: 15em;
+		height: 15em;
+		border-radius: 50%;
+		&-caption {
+			font-size: 1.8em;
+			margin: 1em 0;
+		}
+	}
+	&-quote {
+		padding: 1em 2em;
+		box-sizing: border-box;
+		max-width: 30em;
+		font-style: italic;
+		margin: 1em 0;
+		border-left: 0.4em solid;
+		text-align: initial;
+		position: relative;
+		q {
+			&:before, &:after {
+				font-size: 4.5em;
+				position: absolute;
+				line-height: 0;
+			}
+		}
+	}
+	&-role {
+		display: inline-block;
+		text-transform: uppercase;
+		font-size: 0.9em;
+		&s {
+			margin: 1em 0;
+		}
+		& + & {
+			margin-left: 0.25em;
+			opacity: 0.8;
+		}
+	}
+}
