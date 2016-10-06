@@ -67,8 +67,8 @@ q {
   box-sizing: border-box; }
 
 body {
-  background: #ccc;
-  font-family: Segoe UI, Helvetica Neue, sans-serif; }
+  background: white;
+  font-family: Segoe UI, Helvetica Neue Light, Helvetica Neue, sans-serif; }
 
 .container {
   margin: 2em; }
