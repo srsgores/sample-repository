@@ -3,9 +3,11 @@
 @import "partials/_type.scss";
 @import "partials/_blog-post.scss";
 
+$body-background-colour: white;
+$body-font-family: Segoe UI, Helvetica Neue, sans-serif;
 body {
-	background: #ccc;
-	font-family: Segoe UI, Helvetica Neue, sans-serif;
+	background: $body-background-colour;
+	font-family: $body-font-family;
 }
 
 .container {
