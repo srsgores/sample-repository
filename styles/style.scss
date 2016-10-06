@@ -4,7 +4,8 @@
 @import "partials/_blog-post.scss";
 
 $body-background-colour: white;
-$body-font-family: Segoe UI, Helvetica Neue, sans-serif;
+$body-font-family: Segoe UI, Helvetica Neue Light, Helvetica Neue, sans-serif;
+
 body {
 	background: $body-background-colour;
 	font-family: $body-font-family;
