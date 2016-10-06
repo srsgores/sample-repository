@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.bio {
+  display: inline-block;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.31) 0.2em 0 1em;
+  background: #0ebeff;
+  color: #fff; }
+  @media only screen and (min-width: 55em) {
+    .bio {
+      min-width: 22em; } }
+  .bio-image {
+    max-width: 100%;
+    object-fit: none;
+    /* Do not scale the image */
+    object-position: -490px 86%;
+    /* Centre the image within the element */
+    width: 15em;
+    height: 15em;
+    border-radius: 50%; }
+    .bio-image-caption {
+      font-size: 1.8em;
+      margin: 1em 0; }
+  .bio-quote {
+    padding: 1em 2em;
+    box-sizing: border-box;
+    max-width: 30em;
+    font-style: italic;
+    margin: 1em 0;
+    border-left: 0.4em solid;
+    text-align: initial;
+    position: relative; }
+    .bio-quote q:before, .bio-quote q:after {
+      font-size: 4.5em;
+      position: absolute;
+      line-height: 0; }
+  .bio-role {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.9em; }
+    .bio-roles {
+      margin: 1em 0; }
+    .bio-role + .bio-role {
+      margin-left: 0.25em;
+      opacity: 0.8; }
+
+figure {
+  margin: 1em 0;
+  box-sizing: border-box;
+  padding: 1em; }
+
+q {
+  quotes: "" "" "ΓÇÿ" "ΓÇÖ"; }
+  q:before {
+    left: 0;
+    top: 0.2em;
+    content: open-quote; }
+  q:after {
+    content: close-quote;
+    right: 0.3em;
+    bottom: 0; }
+
+.blog-container {
+  background: #fff;
+  padding: 1em;
+  box-sizing: border-box; }
+
+body {
+  background: #ccc;
+  font-family: Segoe UI, Helvetica Neue, sans-serif; }
+
+.container {
+  margin: 2em; }
+  @media only screen and (min-width: 55em) {
+    .container {
+      display: flex; } }
+
+.banner {
+  flex: 1; }
+
+main {
+  flex: 2;
+  margin: 0 1em; }
+
+/*# sourceMappingURL=style.css.map */
